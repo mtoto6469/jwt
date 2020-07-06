@@ -1,0 +1,77 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'), url('../fonts/woff/IRANSansWeb_Bold.woff') format('woff'), url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/eot/IRANSansWeb_Light.eot');
+    src: url('../fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'), url('../fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'), url('../fonts/woff/IRANSansWeb_Light.woff') format('woff'), url('../fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/eot/IRANSansWeb.eot');
+    src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'), url('../fonts/woff/IRANSansWeb.woff') format('woff'), url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSansFaNum;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/fa-num/eot/IRANSansWeb(FaNum).eot');
+    src: url('../fonts/fa-num/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'), url('../fonts/fa-num/woff2/IRANSansWeb(FaNum).woff2') format('woff2'), url('../fonts/fa-num/woff/IRANSansWeb(FaNum).woff') format('woff'), url('../fonts/fa-num/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+body {
+    font-family: IRANSans, Tahoma;
+    font-weight: normal;
+    direction: rtl;
+    line-height: 23px;
+    text-align: right;
+}
+
+.fanum {
+    font-family: IRANSansFaNum;
+}
+
+.ltr {
+    direction: ltr !important;
+}
+
+span.ltr {
+    display: inline-block;
+}
+
+input.ltr {
+    text-align: right;
+}
+
+.badge {
+    font-weight: normal !important;
+}
+
+.jqx-gauge-label,
+.jqx-gauge-caption{
+    font-family: IRANSansFaNum !important;
+}
+
+.popover{
+    font-family: IRANSansFaNum !important;
+}
+
+.popover .popover-body{
+    text-align: justify;
+    line-height: 18px;
+}
+
+.modal-header .close{
+    margin: -1rem auto -1rem -1rem;
+}

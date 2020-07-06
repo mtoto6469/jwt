@@ -1,0 +1,117 @@
+
+body {
+    font-size: 16px;
+}
+
+h1 small {
+    color: #999999;
+    font-size: 70%;
+}
+
+p {
+    line-height: 30px;
+}
+
+.card-buy {
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    border: 0;
+}
+
+.card-plan, .card-plan:hover {
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.card-plan:hover {
+    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.5);
+}
+
+.steps {
+    list-style: none;
+    padding: 15px 0 0 0;
+    margin: 0;
+    position: relative;
+}
+
+.steps:before {
+    content: '';
+    display: block;
+    width: 1px;
+    background-color: #eeeeee;
+    position: absolute;
+    right: 18px;
+    top: -1.5rem;
+    bottom: 2.5rem;
+}
+
+.steps > li {
+    position: relative;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+.steps > li > a {
+    display: block;
+    color: #999999;
+}
+
+.steps > li > a > .icon {
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    background-color: #ffffff;
+    border: 2px solid #999999;
+    color: #999999;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 23px;
+    padding: 7px 0;
+    margin-top: 5px;
+}
+
+.steps > li.active > a {
+    color: #2196f3;
+}
+
+.steps > li.active > a > .icon {
+    border-color: #ffffff;
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+.steps > li.current > a {
+    color: #2196f3;
+}
+
+.steps > li.current > a > .icon {
+    border-color: #2196f3;
+    color: #2196f3;
+}
+
+.steps > li > a > .icon > .icofont {
+    display: none;
+}
+
+.steps > li.active > a > .icon > .icofont {
+    display: block;
+}
+
+.steps > li.active > a > .icon > span {
+    display: none;
+}
+
+.steps > li > a > .title {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.buysidebar {
+    margin: -20px 0;
+    border-top-left-radius: 1rem;
+    border-right: 1px solid #eeeeee;
+}

@@ -1,0 +1,6 @@
+body{
+    direction: rtl;
+    text-align: right;
+}
+
+table tbody{background: white!important;color: black!important;}

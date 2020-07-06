@@ -1,0 +1,44 @@
+body{
+    background-color: #263238;
+    background-image: url("../img/fond-citation.png");
+    background-position: center;
+}
+
+.authentication .container>.content-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 960px;
+    padding: 15px;
+}
+
+.authentication .intro{
+    color: #ccc;
+}
+
+.authentication .card{
+    box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.9);
+}
+
+.social-list > li > a{
+    /*background-color: rgba(255, 255, 255, 0.05);*/
+    padding: 3px;
+    width: 30px;
+    height: 25px;
+    border-radius: 3px;
+    text-align: center;
+    color: #ccc;
+}
+
+.social-list > li > a:hover{
+    color: #fff;
+}
+
+
+.authentication .intro hr{
+    background-color: rgba(255,255,255,0.05);
+}
